@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alunos\\Desktop\\LPR_2026\\Aula3\\LPR\\LPR.csproj",
+      "projectUniqueName": "C:\\Users\\Alunos\\Desktop\\LPR_2026\\LPR_2026\\Aula3\\LPR\\LPR.csproj",
       "projectName": "LPR",
-      "projectPath": "C:\\Users\\Alunos\\Desktop\\LPR_2026\\Aula3\\LPR\\LPR.csproj",
+      "projectPath": "C:\\Users\\Alunos\\Desktop\\LPR_2026\\LPR_2026\\Aula3\\LPR\\LPR.csproj",
       "packagesPath": "C:\\Users\\Alunos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alunos\\Desktop\\LPR_2026\\Aula3\\LPR\\obj\\",
+      "outputPath": "C:\\Users\\Alunos\\Desktop\\LPR_2026\\LPR_2026\\Aula3\\LPR\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Alunos\\AppData\\Roaming\\NuGet\\NuGet.Config",
