@@ -1,0 +1,15 @@
+C:\Users\Alunos\Desktop\LPR_2026\LPR_2026\Aula4\IfElse Andery\bin\Debug\net9.0\IfElse Andery.exe
+C:\Users\Alunos\Desktop\LPR_2026\LPR_2026\Aula4\IfElse Andery\bin\Debug\net9.0\IfElse Andery.deps.json
+C:\Users\Alunos\Desktop\LPR_2026\LPR_2026\Aula4\IfElse Andery\bin\Debug\net9.0\IfElse Andery.runtimeconfig.json
+C:\Users\Alunos\Desktop\LPR_2026\LPR_2026\Aula4\IfElse Andery\bin\Debug\net9.0\IfElse Andery.dll
+C:\Users\Alunos\Desktop\LPR_2026\LPR_2026\Aula4\IfElse Andery\bin\Debug\net9.0\IfElse Andery.pdb
+C:\Users\Alunos\Desktop\LPR_2026\LPR_2026\Aula4\IfElse Andery\obj\Debug\net9.0\IfElse Andery.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alunos\Desktop\LPR_2026\LPR_2026\Aula4\IfElse Andery\obj\Debug\net9.0\IfElse Andery.AssemblyInfoInputs.cache
+C:\Users\Alunos\Desktop\LPR_2026\LPR_2026\Aula4\IfElse Andery\obj\Debug\net9.0\IfElse Andery.AssemblyInfo.cs
+C:\Users\Alunos\Desktop\LPR_2026\LPR_2026\Aula4\IfElse Andery\obj\Debug\net9.0\IfElse Andery.csproj.CoreCompileInputs.cache
+C:\Users\Alunos\Desktop\LPR_2026\LPR_2026\Aula4\IfElse Andery\obj\Debug\net9.0\IfElse Andery.sourcelink.json
+C:\Users\Alunos\Desktop\LPR_2026\LPR_2026\Aula4\IfElse Andery\obj\Debug\net9.0\IfElse Andery.dll
+C:\Users\Alunos\Desktop\LPR_2026\LPR_2026\Aula4\IfElse Andery\obj\Debug\net9.0\refint\IfElse Andery.dll
+C:\Users\Alunos\Desktop\LPR_2026\LPR_2026\Aula4\IfElse Andery\obj\Debug\net9.0\IfElse Andery.pdb
+C:\Users\Alunos\Desktop\LPR_2026\LPR_2026\Aula4\IfElse Andery\obj\Debug\net9.0\IfElse Andery.genruntimeconfig.cache
+C:\Users\Alunos\Desktop\LPR_2026\LPR_2026\Aula4\IfElse Andery\obj\Debug\net9.0\ref\IfElse Andery.dll
