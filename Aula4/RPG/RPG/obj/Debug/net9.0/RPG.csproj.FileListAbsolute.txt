@@ -1,0 +1,15 @@
+C:\Users\Alunos\Desktop\LPR_2026\LPR_2026\RPG\RPG\bin\Debug\net9.0\RPG.exe
+C:\Users\Alunos\Desktop\LPR_2026\LPR_2026\RPG\RPG\bin\Debug\net9.0\RPG.deps.json
+C:\Users\Alunos\Desktop\LPR_2026\LPR_2026\RPG\RPG\bin\Debug\net9.0\RPG.runtimeconfig.json
+C:\Users\Alunos\Desktop\LPR_2026\LPR_2026\RPG\RPG\bin\Debug\net9.0\RPG.dll
+C:\Users\Alunos\Desktop\LPR_2026\LPR_2026\RPG\RPG\bin\Debug\net9.0\RPG.pdb
+C:\Users\Alunos\Desktop\LPR_2026\LPR_2026\RPG\RPG\obj\Debug\net9.0\RPG.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alunos\Desktop\LPR_2026\LPR_2026\RPG\RPG\obj\Debug\net9.0\RPG.AssemblyInfoInputs.cache
+C:\Users\Alunos\Desktop\LPR_2026\LPR_2026\RPG\RPG\obj\Debug\net9.0\RPG.AssemblyInfo.cs
+C:\Users\Alunos\Desktop\LPR_2026\LPR_2026\RPG\RPG\obj\Debug\net9.0\RPG.csproj.CoreCompileInputs.cache
+C:\Users\Alunos\Desktop\LPR_2026\LPR_2026\RPG\RPG\obj\Debug\net9.0\RPG.sourcelink.json
+C:\Users\Alunos\Desktop\LPR_2026\LPR_2026\RPG\RPG\obj\Debug\net9.0\RPG.dll
+C:\Users\Alunos\Desktop\LPR_2026\LPR_2026\RPG\RPG\obj\Debug\net9.0\refint\RPG.dll
+C:\Users\Alunos\Desktop\LPR_2026\LPR_2026\RPG\RPG\obj\Debug\net9.0\RPG.pdb
+C:\Users\Alunos\Desktop\LPR_2026\LPR_2026\RPG\RPG\obj\Debug\net9.0\RPG.genruntimeconfig.cache
+C:\Users\Alunos\Desktop\LPR_2026\LPR_2026\RPG\RPG\obj\Debug\net9.0\ref\RPG.dll
