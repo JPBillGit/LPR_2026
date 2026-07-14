@@ -1,51 +1,60 @@
-# Cadastro e Análise de População de Cidades
+# Aula 09: Listas e Dicionários 
+Este repositório contém as atividades práticas e exercícios propostos na **Aula 09** da disciplina de **Linguagem de Programação**, do curso Técnico em Desenvolvimento de Sistemas - Games (ETE FMC - Rede Jesuíta de Educação).
 
-Este é um programa desenvolvido em **C#** que simula um sistema de gerenciamento e análise de dados populacionais de cidades. O projeto foi criado como parte das atividades práticas da **Aula 9**.
+##  O que Aprendi
 
-O objetivo principal deste código é exercitar o uso da estrutura de dados `Dictionary<TKey, TValue>` (Dicionário), manipulação de coleções, laços de repetição e condicionais em C#.
+### 1. Vetores vs. Listas (Vetores Dinâmicos)
+* **Vetores tradicionais:** Possuem tamanho estático/predeterminado e são de difícil inserção ou remoção de elementos, embora ofereçam acesso imediato por índice.
+* **Listas (Vetores Dinâmicos):** Resolvem as limitações dos vetores, oferecendo tamanho variável e facilidade para inserir e remover elementos de forma dinâmica. 
+  * *Analogia física:* Enquanto um vetor funciona como um prédio com número fixo de andares, a lista funciona como uma "caça ao tesouro", onde cada nó guarda o dado e aponta para a localização do próximo elemento na memória.
 
-## Funcionalidades
+### 2. Dicionários (Mapas)
+* São estruturas de dados compostas por pares de **Chave-Valor**.
+* Diferente das listas, o acesso à informação é feito por meio de chaves descritivas únicas (semânticas) em vez de índices numéricos, permitindo buscas e recuperação de dados de forma extremamente rápida.
 
-O programa executa as seguintes etapas de forma interativa pelo console:
-
-1. **Cadastro Dinâmico:** Pergunta ao usuário quantas cidades deseja cadastrar e, em seguida, solicita o nome e a população de cada uma delas, armazenando-as em um `Dictionary<string, int>` (onde a chave é o nome da cidade e o valor é a população).
-2. **Cálculo de Média:** Calcula a média populacional de todas as cidades inseridas.
-3. **Filtro de População:** Exibe uma lista contendo apenas as cidades que possuem população **acima da média** calculada.
-4. **Destaques:** Identifica e exibe separadamente qual é a **cidade mais populosa** e qual é a **menos populosa**.
-5. **Remoção de Dados:** Solicita ao usuário um valor limite populacional e remove do dicionário todas as cidades que possuem exatamente aquela população correspondente.
-6. **Exibição do Status Final:** Mostra a lista atualizada de cidades que restaram no dicionário após a exclusão.
-
-## Tecnologias e Conceitos Utilizados
-
-*   **Linguagem:** C# (.NET)
-*   **Coleções Utilizadas:** 
-    *   `Dictionary<string, int>`: Usado para guardar pares de `Cidade (Chave) -> População (Valor)`.
-    *   `List<string>`: Auxiliou de forma temporária na remoção segura de itens do dicionário durante o loop.
-*   **Manipulação de Loops:** `for` e `foreach`.
-*   **Formatação de Saída:** Uso de interpolação de strings (ex: `{media:F2}` para limitar a duas casas decimais).
-
-Exemplo:
-
-Quantas cidades deseja cadastrar? 3
-
-Digite o nome da cidade 1: São Paulo
-Digite a população de São Paulo: 12000000
-
-Digite o nome da cidade 2: Santa Rita
-Digite a população de Santa Rita: 45000
-
-Digite o nome da cidade 3: Belo Horizonte
-Digite a população de Belo Horizonte: 2500000
+### 3. Inferência de Tipos (`var` e `auto`)
+* **C# (`var`):** Permite ao compilador deduzir o tipo da variável no momento da sua inicialização.
+* **C++ (`auto`):** Deduz o tipo de dados de forma automática, simplificando bastante a criação de iteradores e loops `for-each`.
 
 
- Cidades com populacao acima da media (4848333.33):
-- São Paulo: 12000000 habitantes
 
- Cidade mais populosa: São Paulo com 12000000 habitantes.
- Cidade menos populosa: Santa Rita com 45000 habitantes.
+##  Implementação em C# e C++
 
-Digite um valor Y de populacao para remover do dicionario: 45000
+### Comparativo de Métodos aprendidos:
 
-Dicionario Atualizado:
-- São Paulo: 12000000 habitantes
-- Belo Horizonte: 2500000 habitantes
+| Operação | Implementação em C# (`List` / `Dictionary`) | Implementação em C++ (`std::list` / `std::map`) |
+| :--- | :--- | :--- |
+| **Inicializar Lista** | `List<int> numeros = new();` | `list<int> numeros;` |
+| **Inserir no fim** | `numeros.Add(valor);` | `numeros.push_back(valor);` |
+| **Remover por valor**| `numeros.Remove(valor);` | `numeros.remove(valor);` |
+| **Iterar Lista** | `foreach (var item in numeros)` | `for (auto item : numeros)` |
+| **Inicializar Dicionário** | `Dictionary<string, int> dict = new();` | `map<string, int> dict;` |
+| **Inserir no Dicionário**| `dict.Add(chave, valor);` ou `dict[chave] = valor;` | `dict.insert({chave, valor});` ou `dict[chave] = valor;` |
+| **Tamanho / Contagem** | `dict.Count` | `dict.size()` |
+
+
+
+##  Exercícios Desenvolvidos
+A tarefa consistiu em resolver 8 exercícios de níveis variados, dividindo-os igualmente entre C# e C++ (4 em cada linguagem).
+
+### Nível Iniciante (Opcional)
+* **Exercício 1:** Cadastro de notas escolares em uma lista, calculando a maior nota, a menor nota e a média geral.
+* **Exercício 5:** Dicionário de jogos e gêneros, permitindo consultar o gênero digitando o nome do jogo.
+
+### Nível Intermediário
+* **Exercício 2:** Lista dinâmica para ordenar palavras/nomes por tamanho em múltiplos níveis (linhas).
+* **Exercício 3:** Vetor de 100 números aleatórios ordenados de forma crescente, com filtragem de números pares e checagem de duplicatas.
+* **Exercício 6:** Dicionário de nomes e idades para identificar pessoas acima da média de idade, a pessoa mais velha/mais nova, e fazer remoções.
+* **Exercício 7:** Dicionário de cidades e populações, fazendo filtragens matemáticas, buscas de extremos e remoção de dados.
+
+### Nível Avançado (Opcional)
+* **Exercício 4:** Uso de `struct Piloto` (Nome, Equipe, Pontuação) armazenada em uma lista para gerar estatísticas e rankings de campeonatos de corrida.
+* **Exercício 8:** Sistema de biblioteca utilizando dicionários indexados por códigos e contendo a `struct Livro`, com funções para empréstimo, busca e relatório estatístico.
+
+
+
+##  Identificação
+* **Estudante:** João Pedro Silva Otoni
+* **Instituição:** ETE FMC (Escola Técnica Eletrônica Francisco Moreira da Costa)
+* **Curso:** Técnico em Desenvolvimento de Sistemas - Games
+* **Professor:** José Andery
