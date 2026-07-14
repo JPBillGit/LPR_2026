@@ -1,0 +1,86 @@
+using System;
+using System.Collections.Generic;
+
+class Program
+{
+    static void Main()
+    {
+        Dictionary<string, int> cidades = new Dictionary<string, int>();
+
+        Console.Write("Quantas cidades deseja cadastrar? ");
+        int x = int.Parse(Console.ReadLine());
+        Console.WriteLine();
+
+        for (int i = 0; i < x; i++)
+        {
+            Console.Write($"Digite o nome da cidade {i + 1}: ");
+            string nome = Console.ReadLine();
+            Console.Write($"Digite a população de {nome}: ");
+            int populacao = int.Parse(Console.ReadLine());
+            Console.WriteLine();
+            cidades[nome] = populacao;
+        }
+
+        if (cidades.Count == 0) return;
+
+        double soma = 0;
+        foreach (var par in cidades)
+        {
+            soma += par.Value;
+        }
+        double media = soma / cidades.Count;
+
+        Console.WriteLine($"\n Cidades com populacao acima da media ({media:F2}):");
+        foreach (var par in cidades)
+        {
+            if (par.Value > media)
+            {
+                Console.WriteLine($"- {par.Key}: {par.Value} habitantes");
+            }
+        }
+
+        string cidadeMaior = "";
+        int maiorPop = int.MinValue;
+        string cidadeMenor = "";
+        int menorPop = int.MaxValue;
+
+        foreach(var par in cidades)
+        {
+            if (par.Value > maiorPop)
+            {
+                maiorPop = par.Value;
+                cidadeMaior = par.Key;
+            }
+            if (par.Value < menorPop)
+            {
+                menorPop = par.Value;
+                cidadeMenor = par.Key;
+            }
+        }
+        Console.WriteLine($"\n Cidade mais populosa: {cidadeMaior} com {maiorPop} habitantes.");
+        Console.WriteLine($" Cidade menos populosa: {cidadeMenor} com {menorPop} habitantes.");
+
+        Console.Write("\nDigite um valor Y de populacao para remover do dicionario: ");
+        int valorY = int.Parse(Console.ReadLine());
+
+        List<string> chavesParaRemover = new List<string>();
+        foreach (var par in cidades)
+        {
+            if (par.Value == valorY)
+            {
+                chavesParaRemover.Add(par.Key);
+            }
+        }
+
+        foreach (string chave in chavesParaRemover)
+        {
+            cidades.Remove(chave);
+        }
+
+        Console.WriteLine("\nDicionario Atualizado:");
+        foreach (var par in cidades)
+        {
+            Console.WriteLine($"- {par.Key}: {par.Value} habitantes");
+        }
+    }
+}
