@@ -19,13 +19,13 @@ namespace Aula10
             NotaTrabalho = notaTrabalho;
         }
 
-        // Calcula a média ponderada (Provas peso 2.5, Trabalho peso 2)[cite: 67]
+       
         public double Media()
         {
             return ((NotaProva1 * 2.5) + (NotaProva2 * 2.5) + (NotaTrabalho * 2.0)) / 7.0;
         }
 
-        // Retorna quanto falta para a final, ou 0 se a média for >= 60[cite: 67]
+        
         public double Final()
         {
             double m = Media();
