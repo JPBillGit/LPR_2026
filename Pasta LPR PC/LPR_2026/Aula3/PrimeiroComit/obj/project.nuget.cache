@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "hvfdq52Gc7A=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\caval\\Desktop\\Pasta LPR PC\\LPR_2026\\Aula3\\PrimeiroComit\\PrimeiroComit.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\caval\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.19\\microsoft.netcore.app.ref.9.0.19.nupkg.sha512",
+    "C:\\Users\\caval\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.19\\microsoft.windowsdesktop.app.ref.9.0.19.nupkg.sha512",
+    "C:\\Users\\caval\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.19\\microsoft.aspnetcore.app.ref.9.0.19.nupkg.sha512",
+    "C:\\Users\\caval\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\9.0.19\\microsoft.netcore.app.host.win-x64.9.0.19.nupkg.sha512"
+  ],
+  "logs": []
+}
